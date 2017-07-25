@@ -17,7 +17,7 @@ auth:
     - ldap:ldap
   volumes:
     - "./auth/start.sh:/start.sh:ro"
-    - "./auth/config:/config:ro" 
+    - "./auth/config:/config:ro"
     - "./auth/logs:/logs:rw"
     - "./certs:/certs:ro"
 
